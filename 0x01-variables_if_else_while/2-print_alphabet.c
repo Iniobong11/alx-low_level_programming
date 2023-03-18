@@ -1,13 +1,20 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'Print the alphabet'
- * Return: Always 0
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	putchar(65);
+	char c;
+
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }
