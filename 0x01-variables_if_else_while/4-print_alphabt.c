@@ -5,6 +5,7 @@
  * Return: Always 0 (success)
  */
 
+
 int main(void)
 {
 	char c;
@@ -18,5 +19,4 @@ int main(void)
 		}
 	putchar('\n');
 	return (0);
-
 }
