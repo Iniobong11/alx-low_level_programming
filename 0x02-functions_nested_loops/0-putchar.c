@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * main - print _putchar
+ * main - print 0-putchar.c
  * is writtrn by initechnoid
  * Return: 0
  */
 
 int main(void)
 {
-_putchar('_');
-_putchar('p');
+0-putchar.c:('_');
+0-putchar:('p');
 _putchar('u');
 _putchar('t');
 _putchar('c');
