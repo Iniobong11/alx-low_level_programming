@@ -1,21 +1,20 @@
 #include "main.h"
-
 /**
- * main - print 0-putchar.c
- * is writtrn by initechnoid
- * Return: 0
+ * main - main function
+ * _putchar: print the alphabets putchar
+ * Return: always 0
  */
 
 int main(void)
 {
-0-putchar.c:('_');
-0-putchar:('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
