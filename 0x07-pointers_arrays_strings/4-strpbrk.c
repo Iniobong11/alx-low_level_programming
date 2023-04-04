@@ -4,10 +4,10 @@
  * _strpbrk - function that searches a string for any of a set of bytes
  *
  * @s:first occurrence in the string
+ * @accept: The set of btyes to be searched for
  *
- * @accept: matches one of the bytes, or @NULL if no such byte
- *
- * Return: a pointer to the byte
+ * Return: If a set is matched - a pointer to the matched btye.
+ * If no set is matched - NULL.
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -21,5 +21,5 @@ char *_strpbrk(char *s, char *accept)
 			}
 			s++;
 		}
-	return (NULL);
+	return ('\0');
 }
