@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prinnt recieved arguments
+ * main - print the passed arguments in it
  * @argc: counting of arguments
  * @argv: argument in array
  *
@@ -10,10 +10,8 @@
 
 int main(int argc, char **argv)
 {
-	int a;
+	(void)argv;
 
-	for (a = 0; a < argc; a++)
-		printf("%s\n", argv[a]);
-
+	printf("%d\n", argc - 1);
 	return (0);
 }
